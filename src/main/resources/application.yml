@@ -1,0 +1,23 @@
+micronaut:
+  application:
+    name: kafka-mgr
+  server:
+    port: 8080
+
+#endpoints:
+#  health:
+#    enabled: true
+#    sensitive: true
+#    id: health
+#  info:
+#    enabled: true
+#    demo:
+#      number: 1
+
+endpoints:
+  health:
+    enabled: true
+    sensitive: false
+    id: String
+kafka:
+  bootstrap: localhost:9092

@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: kafka.mgr
+---
+testFramework: junit
+sourceLanguage: java
