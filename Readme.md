@@ -1,4 +1,4 @@
-Kafka manager
+Kafka manager -- written micronaut framework serivce
 
 ## managing kafka ops view
 - /topics == gives all topics part of cluster
@@ -8,3 +8,6 @@ Kafka manager
 To run just build using gradle
 `docker-compose up -d`
 `./gradlew clean run`
+
+
+Service framework used -- http://micronaut.io/
