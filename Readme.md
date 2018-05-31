@@ -6,4 +6,5 @@ Kafka manager
 - /topics/details == gives details of all topics 
 
 To run just build using gradle
+`docker-compose up -d`
 `./gradlew clean run`
